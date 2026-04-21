@@ -9,7 +9,7 @@ test.beforeEach(async ({ page, user }) => {
   await signUpUser(page, user);
 });
 
-test('Update username from settings', async ({
+test('Add user image from settings', async ({
   homePage,
   settingsPage,
   profilePage,
